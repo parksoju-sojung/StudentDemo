@@ -16,22 +16,22 @@ public class StudentDemo
   
   /**
    * A constructor to pass in the given ID and then name
-   * @param givenID - the ID to assign
-   * @param givenName- the name to assign 
+   * @param id - the ID to assign
+   * @param name- the name to assign 
    */
-  public StudentDemo(String givenID, String givenName)
+  public StudentDemo(String id, String n)
   {
-      studentID = givenID;
-      name = givenName;
+      studentID = id;
+      name = n;
   }
   
   /**
    * A method to set the student ID
-   * @param givenID the ID to set
+   * @param id the ID to set
    */
-  public void setStudentID(String givenID)
+  public void setStudentID(String id)
   {
-      studentID=givenID;
+      studentID=id;
   }
   /**
    * An accessor method for studentID
@@ -54,8 +54,8 @@ public class StudentDemo
      * A method to set the student's name
      * @param givenName the name to set
      */
-    public void setName(String givenName) {
-        name = givenName;
+    public void setName(String n) {
+        name = n;
     }
     
 }
